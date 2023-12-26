@@ -39,7 +39,7 @@ const Hero = () => {
     {/* Image on the Left */}
     <div className="lg:order-1 lg:w-1/2 lg:pr-4 ">
       <img
-        src="./images/about/about-dark-01.png" // Replace with the actual image URL
+        src="./images/about/hero.png" // Replace with the actual image URL
         alt="About Image"
         className="w-2/3 md:w-2/3  h-auto object-cover rounded-lg mx-auto mb-2 width"
       />
