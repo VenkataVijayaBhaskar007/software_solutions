@@ -420,7 +420,7 @@
     .background-circle {
       width: 40px;
       height: 40px;
-      background: linear-gradient( 125deg, red, #ffffff);
+      background: linear-gradient(125deg, rgb(46, 113, 195), rgba(66, 255, 255, 0.244));
   
       border-radius: 50%;
       z-index: 0;
@@ -598,7 +598,7 @@
 }  .background-circle {
   width: 50px;
   height: 50px;
-  background: linear-gradient( 125deg, #879dff, #ffffff);
+  background: linear-gradient(125deg, rgb(46, 113, 195), rgba(66, 255, 255, 0.244));
 
   border-radius: 50%;
   z-index: 0;
