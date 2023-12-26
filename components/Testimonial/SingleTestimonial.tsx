@@ -1,7 +1,7 @@
 
 import Image from "next/image";
 
-const SingleTestimonial = ({ review }: { review: Testimonial }) => {
+const SingleTestimonial = ({ review  }) => {
   const { name, designation, image, content } = review;
   return (
     <div className="rounded-lg bg-white p-9 pt-7.5 shadow-solid-9 dark:border dark:border-strokedark dark:bg-blacksection dark:shadow-none">
