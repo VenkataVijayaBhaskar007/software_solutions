@@ -26,7 +26,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 .background-circle {
     width: 40px;
     height: 40px;
-    background: linear-gradient(125deg, rgb(46, 113, 195), rgba(66, 255, 255, 0.244));
+    background: linear-gradient(80deg, rgba(109, 86, 255, 0.5), rgba(0, 194, 255, 0.5));
     border-radius: 50%;
     z-index: 0;
     margin-top: -2px; /* Adjust the distance from the top */
