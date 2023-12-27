@@ -186,7 +186,7 @@ const About = () => {
 
 
 
-    <section className="container py-8 bg-white font-poppins dark:bg-btndark" style={{ marginTop: '-3rem' }}>
+    <section className="container py-8 bg-white font-poppins dark:bg-btndark" >
       <div className="max-auto aboutsec px-4">
         <div className="flex flex-wrap">
           <motion.div
