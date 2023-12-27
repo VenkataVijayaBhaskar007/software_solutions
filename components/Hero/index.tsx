@@ -71,7 +71,7 @@ const Hero = () => {
       </div>
 
       {/* Content on the right */}
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
         User-Centric Design
       </div>
     </div>
@@ -81,7 +81,7 @@ const Hero = () => {
       <div className="flex-shrink-0">
         <img src="./images/shape/check-circle.png" alt="Tick Icon" className="w-5 h-5" />
       </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
         Mobile Responsiveness
       </div>
     </div>
@@ -90,7 +90,7 @@ const Hero = () => {
       <div className="flex-shrink-0">
         <img src="./images/shape/check-circle.png" alt="Tick Icon" className="w-5 h-5" />
       </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
         E-commerce Services
       </div>
     </div>
@@ -99,8 +99,8 @@ const Hero = () => {
       <div className="flex-shrink-0">
         <img src="./images/shape/check-circle.png" alt="Tick Icon" className="w-5 h-5" />
       </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
-      Reliable Backend Services
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
+      Backend Services
       </div>
     </div>
   </div>
@@ -112,7 +112,7 @@ const Hero = () => {
       <div className="flex-shrink-0">
         <img src="./images/shape/check-circle.png" alt="Tick Icon" className="w-5 h-5" />
       </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
         Custom API Integrations
       </div>
     </div>
@@ -121,7 +121,7 @@ const Hero = () => {
       <div className="flex-shrink-0">
         <img src="./images/shape/check-circle.png" alt="Tick Icon" className="w-5 h-5" />
       </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
         Scalable Architecture
       </div>
     </div>
@@ -130,7 +130,7 @@ const Hero = () => {
       <div className="flex-shrink-0">
         <img src="./images/shape/check-circle.png" alt="Tick Icon" className="w-5 h-5" />
       </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
         Cross-Browser Compatibility
       </div>
     </div>
@@ -139,7 +139,7 @@ const Hero = () => {
       <div className="flex-shrink-0">
         <img src="./images/shape/check-circle.png" alt="Tick Icon" className="w-5 h-5" />
       </div>
-      <div className="text-black text-base font-normal font-['Poppins'] leading-relaxed md:whitespace-nowrap">
+      <div className="text-black text-base font-normal  leading-relaxed md:whitespace-nowrap">
         Security Measures
       </div>
     </div>

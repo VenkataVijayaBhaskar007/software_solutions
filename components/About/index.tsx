@@ -220,7 +220,7 @@ const About = () => {
  
 
 
-<section className="px-10 flex flex-wrap -mx-1 py-8">
+<section className="px-20 flex flex-wrap -mx-1 py-8">
   <div className="bg-white shadow-md rounded-md overflow-hidden mb-6 w-full md:w-1/2 lg:w-2/3 xl:w-1/4 md:mx-45 lg:mx-40 xl:mx-15 rounded-bl-2xl rounded-br-2xl transition-transform transform hover:scale-105">
    
 
