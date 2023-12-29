@@ -338,7 +338,7 @@ const About = () => {
 
 
 
-<section className="container py-8 bg-white font-poppins dark:bg-btndark mb-10">
+<section className="container  bg-white font-poppins dark:bg-btndark mb-10">
       <div className="max-auto aboutsec px-4">
         <div className="flex flex-wrap">
           <motion.div
@@ -371,7 +371,7 @@ const About = () => {
     </section>
 
 <section>
-<div className="container my-24 mx-auto xl:px-25">
+<div className="container  mx-auto xl:px-25">
 
   <section className="mb-32">
   
@@ -380,7 +380,7 @@ const About = () => {
         <div className="relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
           <img src="./images/about/about-dark-01.png" className="w-full" alt="" />
-          <a href="#!">
+          {/* <a href="#!">
             <div
               className="absolute overflow-hidden top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsl(0,0%,0%,0.4)] bg-fixed">
               <div className="flex h-full items-center justify-center">
@@ -404,7 +404,7 @@ const About = () => {
                 className="absolute overflow-hidden top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
               </div>
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
 
