@@ -18,7 +18,7 @@ const About = () => {
 
   return (
     <>
-<section className="px-2">
+<section id="about" className="px-6 ">
   <div className="grid gap-y-6 md:gap-y-0 md:gap-x-15 grid-cols-12 items-center">
     <div className="hidden lg:block col-span-1 order-1"></div>
     <div className="col-span-12 md:col-span-6 lg:col-span-5 md:order-2">
@@ -186,7 +186,7 @@ const About = () => {
 
 
 
-    <section className="container py-8 bg-white font-poppins dark:bg-btndark mb-10">
+    <section id="Services" className="container py-8 bg-white font-poppins dark:bg-btndark mb-10">
       <div className="max-auto aboutsec px-4">
         <div className="flex flex-wrap">
           <motion.div
@@ -358,7 +358,7 @@ const About = () => {
             className="animate_left lg:w-1/1 px-4"
           >
             <h2 className="text-with-circle background-circle mb-1 text2xl font-bold text-black dark:text-white 2xl:text-hero nowraps">
-              <span className="text-content">    How we do it?</span>
+              <span className="text-content">    Our value for your project</span>
             </h2>
             <div className="px-3">
               <p>
@@ -370,7 +370,7 @@ const About = () => {
       </div>
     </section>
 
-<section className="px-10">
+<section className="px-8">
 <div className="container  mx-auto xl:px-25">
 
   <section className="mb-32">
@@ -380,38 +380,29 @@ const About = () => {
         <div className="relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
           <img src="./images/about/about-dark-01.png" className="w-full" alt="" />
-          {/* <a href="#!">
-            <div
-              className="absolute overflow-hidden top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsl(0,0%,0%,0.4)] bg-fixed">
-              <div className="flex h-full items-center justify-center">
-                <div className="px-6 py-12 text-center text-white md:px-12">
-                  <h3 className="mb-6 text-2xl font-bold uppercase">
-                    The future is
-                    <u className="text-[hsl(210,12%,80%)]">now</u>
-                  </h3>
-                  <p className="text-[hsl(210,12%,80%)]">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Harum quia laboriosam error consequuntur fugit,
-                    doloribus rerum, iure nesciunt amet quidem veniam
-                    cupiditate hic fugiat dolore aperiam quisquam libero
-                    earum quibusdam?
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="relative overflow-hidden bg-cover bg-no-repeat">
-              <div
-                className="absolute overflow-hidden top-0 right-0 bottom-0 left-0 h-full w-full bg-[hsl(0,0%,98.4%,0.2)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
-              </div>
-            </div>
-          </a> */}
         </div>
       </div>
 
       <div className="w-full shrink-0 grow-0 basis-auto md:px-6 lg:w-7/12 mt-15">
+      <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -40,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.1 }}
+            className="animate_left "
+          >
         <div className="mb-12 flex">
           <div className="shrink-0">
-            <div className="rounded-md p-4 shadow-lg bg-[hsl(231,52.6%,20%)] dark:bg-[hsl(231,52.6%,30%)]">
+            <div className="rounded-md p-4 shadow-lg bg-blue-500 dark:bg-[hsl(231,52.6%,30%)]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                 stroke="currentColor" className="h-6 w-6 text-white">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -420,16 +411,32 @@ const About = () => {
             </div>
           </div>
           <div className="ml-4 grow">
-            <p className="mb-2 font-bold">Understand requirement</p>
+            <p className="mb-1 text-black font-bold">Understand requirement</p>
             <p className="text-neutral-500 dark:text-neutral-300">
  Our approach prioritizes top-notch user experiences and aesthetic excellence to engage your audience effectively.
             </p>
           </div>
         </div>
-
+        </motion.div>
+        <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -40,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.4 }}
+            className="animate_left "
+          >
         <div className="mb-12 flex">
           <div className="shrink-0">
-            <div className="rounded-md p-4 shadow-lg bg-[hsl(231,52.6%,20%)] dark:bg-[hsl(231,52.6%,30%)]">
+            <div className="rounded-md p-4 shadow-lg bg-blue-500 dark:bg-[hsl(231,52.6%,30%)]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                 stroke="currentColor" className="h-6 w-6 text-white">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -438,16 +445,33 @@ const About = () => {
             </div>
           </div>
           <div className="ml-4 grow">
-            <p className="mb-2 font-bold">Safe and solid</p>
+            <p className="mb-1 text-black font-bold">Safe and solid</p>
             <p className="text-neutral-500 dark:text-neutral-300">
            We execute a meticulous QA process, ensuring a flawless product launch by addressing speed, security, user-friendly interfaces, and overall functionality.
             </p>
           </div>
         </div>
+        </motion.div>
+        <motion.div
+            variants={{
+              hidden: {
+                opacity: 0,
+                y: -40,
+              },
+              visible: {
+                opacity: 1,
+                y: 0,
+              },
+            }}
+            initial="hidden"
+            whileInView="visible"
+            transition={{ duration: 1, delay: 0.8 }}
+            className="animate_left "
+          >
 
         <div className="mb-12 flex">
           <div className="shrink-0">
-            <div className="rounded-md p-4 shadow-lg bg-[hsl(231,52.6%,20%)] dark:bg-[hsl(231,52.6%,30%)]">
+            <div className="rounded-md p-4 shadow-lg bg-blue-500 dark:bg-[hsl(231,52.6%,30%)]">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                 stroke="currentColor" className="h-6 w-6 text-white">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -456,12 +480,13 @@ const About = () => {
             </div>
           </div>
           <div className="ml-4 grow">
-            <p className="mb-2 font-bold">fastest Website</p>
+            <p className="mb-1 text-black font-bold">fastest Website</p>
             <p className="text-neutral-500 dark:text-neutral-300">
             Crafting lightning-fast websites with optimized performance, we prioritize speed to deliver seamless and swift user experiences, setting new benchmarks for efficiency in web development.
             </p>
           </div>
         </div>
+        </motion.div>
 
        
       </div>
