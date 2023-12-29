@@ -100,7 +100,7 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out ">Atoms 2.0</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-300 hover:text-gray-100 transition duration-150 ease-in-out">Web dev</Link>
+                    <Link href="/" className="text-gray-300 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                   </li>
                 </ul>
               </div>
@@ -121,7 +121,7 @@ export default function Footer() {
                     <Link href="/" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual Media</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-gray-300 hover:text-gray-100 transition duration-150 ease-in-out">Visual media</Link>
+                    <Link href="/" className="text-gray-300 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                   </li>
                 </ul>
               </div>
