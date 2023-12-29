@@ -370,7 +370,7 @@ const About = () => {
       </div>
     </section>
 
-<section>
+<section className="px-10">
 <div className="container  mx-auto xl:px-25">
 
   <section className="mb-32">
@@ -422,7 +422,7 @@ const About = () => {
           <div className="ml-4 grow">
             <p className="mb-2 font-bold">Understand requirement</p>
             <p className="text-neutral-500 dark:text-neutral-300">
-            As a client-focused development company, we analyze your digital needs, consumer behaviors, and tech landscapes for a competitive edge. Our approach prioritizes top-notch user experiences and aesthetic excellence to engage your audience effectively.
+ Our approach prioritizes top-notch user experiences and aesthetic excellence to engage your audience effectively.
             </p>
           </div>
         </div>
