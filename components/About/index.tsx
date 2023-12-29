@@ -338,7 +338,7 @@ const About = () => {
 
 
 
-<section className="container  bg-white font-poppins dark:bg-btndark mb-10">
+<section className="container  bg-white font-poppins dark:bg-btndark mb-5">
       <div className="max-auto aboutsec px-4">
         <div className="flex flex-wrap">
           <motion.div
@@ -362,7 +362,7 @@ const About = () => {
             </h2>
             <div className="px-3">
               <p>
-              Elevating our efforts with an extra touch of dedication at every juncture...
+              Exemplifying unwavering dedication, our software solutions transcend conventional boundaries by thinking innovatively and anticipating future needs. We pride ourselves on crafting cutting-edge websites that not only meet current requirements but also stand poised to adapt seamlessly to evolving demands, ensuring lasting excellence in your digital endeavors.
               </p>
             </div>
           </motion.div>
@@ -376,7 +376,7 @@ const About = () => {
   <section className="mb-32">
   
     <div className="flex flex-wrap items-center">
-      <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12">
+      <div className=" w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12">
         <div className="relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
           data-te-ripple-init data-te-ripple-color="light">
           <img src="./images/about/about-dark-01.png" className="w-full" alt="" />
