@@ -32,7 +32,7 @@ const Hero = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 0.5 }}
+    transition={{ duration: 1, delay: 0.1 }}
   
     className="animate_top flex flex-col lg:flex-row rounded-lg bg-white px-4 lg:py-2 pb-9 shadow-solid-8 dark:bg-blacksection"
   >
@@ -181,7 +181,7 @@ const Hero = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 0.5 }}
+    transition={{ duration: 1, delay: 0.1 }}
   
     className="animate_top "
   >
@@ -199,7 +199,7 @@ const Hero = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 0.5 }}
+    transition={{ duration: 1, delay: 0.1 }}
   
     className="animate_top "
   >
@@ -238,7 +238,7 @@ const Hero = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 0.9 }}
+    transition={{ duration: 1, delay: 0.3 }}
   
     className="animate_top "
   >
@@ -266,7 +266,7 @@ const Hero = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 1.2 }}
+    transition={{ duration: 1, delay: 0.6 }}
   
     className="animate_top "
   >
@@ -294,7 +294,7 @@ const Hero = () => {
     }}
     initial="hidden"
     whileInView="visible"
-    transition={{ duration: 1, delay: 1.5 }}
+    transition={{ duration: 1, delay: 0.9 }}
   
     className="animate_top "
   >
