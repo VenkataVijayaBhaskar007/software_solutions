@@ -39,14 +39,15 @@ const Hero = () => {
     {/* Image on the Left */}
    <div className="lg:order-1 lg:w-1/2 xl:pl-40 lg:pr-30 lg:pl-0  ">
         
-   <img
-        loading="lazy"
-        height="600"
-        width="778"
-        src="./images/about/about-dark-01.png"
-        alt=""
-        sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 38vw, (max-width: 1279px) 31vw, (max-width: 1439px) 30vw, (max-width: 1919px) 29vw, 23vw"
-      /> </div>
+   <video
+    className="object-contain rounded-3xl xl:w-full "
+    height="600"
+    width="778"
+    src="./images/about/about2.mp4"
+    autoPlay
+    muted
+    loop
+    /> </div>
 
     {/* Content on the Right */}
     <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
@@ -203,9 +204,9 @@ const Hero = () => {
     className="animate_top "
   >
         <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-4xl text-white font-regular mx-auto md:text-5xl lg:text-4xl">Roadmap of Our Developing Process</h2>
+            <h2 className="text-4xl text-white font-regular mx-auto md:text-5xl lg:text-4xl">Architecting Digital Excellence</h2>
             <p className="max-w-2xl mx-auto mt-2 text-base text-gray-400 leading-relaxed md:text-2xl">
-                Our AI solution will help you from start to finish
+            A Comprehensive Journey through Planning, Functionality, and Monitoring in Web Development
             </p>
         </div>
         </motion.div>
@@ -248,7 +249,7 @@ const Hero = () => {
                     </div>
                     <h3 className="mt-6 text-xl  text-white font-semibold leading-tight md:mt-10">Planning & Designing</h3>
                     <p className="mt-4 text-base text-gray-400 md:text-lg">
-                        Select template accourding to your requirement
+                    Strategize and craft a blueprint for success with meticulous planning and innovative design in our web development process.
                     </p>
                 </div>
                 </motion.div>
@@ -276,7 +277,7 @@ const Hero = () => {
                     </div>
                     <h3 className="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">Functionality & Testing</h3>
                     <p className="mt-4 text-base text-gray-400 md:text-lg">
-                        Put in your personalized details and let the AI do the rest.
+                    Bring your vision to life with seamlessly integrated functionality and rigorous testing, ensuring a flawless and user-centric digital experience.
                     </p>
                 </div>
                 </motion.div>
@@ -304,7 +305,7 @@ const Hero = () => {
                     </div>
                     <h3 className="mt-6 text-xl text-white font-semibold leading-tight md:mt-10">Monitoring for Updates</h3>
                     <p className="mt-4 text-base text-gray-400 md:text-lg">
-                        Use output as you like
+                    Stay ahead in the ever-evolving digital landscape with continuous monitoring for updates, ensuring your web presence remains cutting-edge and secure.
                     </p>
                 </div>
                 </motion.div>

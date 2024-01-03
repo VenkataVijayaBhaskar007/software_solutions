@@ -1,5 +1,5 @@
 "use client";
-
+// import Portfolio from "./portfolio";
 import { motion } from "framer-motion";
 import { useSpring } from 'react-spring';
 
@@ -126,6 +126,23 @@ const About = () => {
             Innovative Solutions
           </div>
         </div>
+        </motion.div>
+        <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -100,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 1.6 }}
+  
+    className="animate_top ">
         <div className="flex items-center space-x-4 px-3 mt-3">
           <div className="flex-shrink-0">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-6 w-6" color="blue"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>      </div>
@@ -135,6 +152,23 @@ const About = () => {
             Client-Centric Approach
           </div>
         </div>
+        </motion.div>
+        <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -100,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 1.7 }}
+  
+    className="animate_top ">
         <div className="flex items-center space-x-4 px-3 mt-3">
           <div className="flex-shrink-0">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-6 w-6" color="blue"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>      </div>
@@ -144,6 +178,23 @@ const About = () => {
             Continuous Innovation
           </div>
         </div>
+        </motion.div>
+        <motion.div
+    variants={{
+      hidden: {
+        opacity: 0,
+        x: -100,
+      },
+      visible: {
+        opacity: 1,
+        x: 0,
+      },
+    }}
+    initial="hidden"
+    whileInView="visible"
+    transition={{ duration: 1, delay: 1.8 }}
+  
+    className="animate_top ">
         <div className="flex items-center space-x-4 px-3 mt-3">
           <div className="flex-shrink-0">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" className="h-6 w-6" color="blue"><path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path></svg>      </div>
@@ -170,14 +221,17 @@ const About = () => {
       </div>
     </div>
     <div className="col-span-12 md:col-span-6 lg:col-span-5 md:order-3">
-      <img
-        loading="lazy"
-        height="600"
-        width="778"
-        src="./images/about/about-dark-01.png"
-        alt=""
-        sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 38vw, (max-width: 1279px) 31vw, (max-width: 1439px) 30vw, (max-width: 1919px) 29vw, 23vw"
-      />
+     
+        <video
+    className="object-contain rounded-3xl xl:w-full "
+    height="600"
+    width="778"
+    src="./images/about/about1.mp4"
+    autoPlay
+    muted
+    loop
+    />
+        
     </div>
 
     <div className="hidden lg:block col-span-1 order-4"></div>
@@ -377,9 +431,16 @@ const About = () => {
   
     <div className="flex flex-wrap items-center">
       <div className=" w-full shrink-0 grow-0 basis-auto md:px-6 lg:mb-0 lg:w-5/12">
-        <div className="relative overflow-hidden rounded-lg bg-cover bg-[50%] bg-no-repeat shadow-lg dark:shadow-black/20"
-          data-te-ripple-init data-te-ripple-color="light">
-          <img src="./images/about/about-dark-01.png" className="w-full" alt="" />
+       <div>
+              <video
+    className="object-contain rounded-3xl xl:w-full "
+    height="600"
+    width="778"
+    src="./images/about/about.mp4"
+    autoPlay
+    muted
+    loop
+    />
         </div>
       </div>
 
@@ -494,6 +555,9 @@ const About = () => {
   </section>
 
 </div>
+</section>
+<section>
+  {/* <Portfolio/> */}
 </section>
 
 
