@@ -37,13 +37,16 @@ const Hero = () => {
     className="animate_top flex flex-col lg:flex-row rounded-lg bg-white px-4 lg:py-2 pb-9 shadow-solid-8 dark:bg-blacksection"
   >
     {/* Image on the Left */}
-    <div className="lg:order-1 lg:w-1/2 lg:pr-4 ">
-      <img
-        src="./images/about/hero.png" // Replace with the actual image URL
-        alt="About Image"
-        className="w-2/3 md:w-2/3  h-auto object-cover rounded-lg mx-auto mb-2 width"
-      />
-    </div>
+   <div className="lg:order-1 lg:w-1/2 xl:pl-40 lg:pr-30 lg:pl-0  ">
+        
+   <img
+        loading="lazy"
+        height="600"
+        width="778"
+        src="./images/about/about-dark-01.png"
+        alt=""
+        sizes="(max-width: 479px) 90vw, (max-width: 767px) 94vw, (max-width: 991px) 38vw, (max-width: 1279px) 31vw, (max-width: 1439px) 30vw, (max-width: 1919px) 29vw, 23vw"
+      /> </div>
 
     {/* Content on the Right */}
     <div className="lg:order-2 lg:w-1/1 px-4 text-left full-text" >
