@@ -11,18 +11,18 @@ export const metadata: Metadata = {
 const Team = () => {
   return (
     
-<section className="flex flex-wrap justify-center items-center pt-40"> 
-   
+<section className="flex flex-wrap justify-center items-center pt-40 pb-20"> 
+
    {/* Card 1 */}
  <div className="profile-card mb-8">
      <div className="img">
        <img
-         src="./images/atomsgallery/23.png"
+         src="./images/atomsgallery/18.png"
          alt=""
        />
         <div className="hide">
        <h3>Venkata Vijaya Bhaskar.Vadada</h3>
-       <p>Lead of Software Solutions</p></div>
+       <p>Lead of Software Services</p></div>
        <ul className="flex mb-4 hide-social md:order-1  md:mb-0 hide">
 <li className="ml-18">
 <Link href="/" className="flex justify-center items-center text-white bg-gray-800 hover:text-gray-100 hover:bg-black rounded-full hover:translate-y-[-1px] hover:scale-100" aria-label="Twitter">
@@ -53,7 +53,7 @@ const Team = () => {
      </div>
      <div className="caption">
        <h3>Venkata Vijaya Bhaskar.Vadada</h3>
-       <p>Lead of Software Solutions</p> 
+       <p>Lead of Software Services</p> 
        {/* Social links for Card 1 */}
      <ul className="flex mb-4 md:order-1  md:mb-0">
 <li className="ml-4">
