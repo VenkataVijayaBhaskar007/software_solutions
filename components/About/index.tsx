@@ -273,119 +273,55 @@ const About = () => {
     </section>
  
 
+    <section className="px-10 flex flex-wrap -mx-1 -mt-16 py-8 justify-center ">
 
-<section className="px-10 flex flex-wrap -mx-1 py-8">
-  <div className="bg-white shadow-md rounded-md overflow-hidden mb-6 w-full md:w-1/2 lg:w-2/3 xl:w-1/4 md:mx-45 lg:mx-40 xl:mx-15 rounded-bl-2xl rounded-br-2xl transition-transform transform hover:scale-105">
-   
-
- {/* Blue horizontal line at the top */}
- <div className="bg-blue-500 h-1 w-full"></div>
-
-{/* Content of the card */}
-<div className="flex items-start p-4">
-  {/* Square image with icon on the left */}
-  <div className="flex-shrink-0">
-    <img
-      src="./images/shape/atandt.png"
-      alt="Square Image"
-      className="w-12 h-12 object-cover rounded-full"
-    />
-  </div>
-
-  {/* Heading and paragraph on the right */}
-  <div className="ml-4">
-    <h2 className="text-xl font-regular text-black">UI / UX </h2>
-    <h2 className="text-xl font-regular text-black">Design</h2>
+{/* card 1*/}
+<div className="flex items-start p-4 text-black hover:text-white">
+  <div className="card1">
+    <div className="content1">
+      <p className="heading">UI UX Design</p>
+      <p className="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+        laboriosam at voluptas minus culpa deserunt delectus sapiente
+        inventore pariatur
+      </p>
+      <a href="#" className="btn">Get Service</a>
+    </div>
   </div>
 </div>
 
-<p className="text-gray-500 p-4" style={{ marginTop: '-2rem' }}>
-  Make your own desired website with the help of our web developers who make your site visually appealing.
-</p>
-
-{/* Footer with "View More" link and next icon */}
-<div className="p-4 bg-blue-50 flex justify-between items-center rounded-bl-2xl rounded-br-2xl">
-  <a href="/next-page" className="text-blue-500 font-semibold">
-    View More
-  </a>
-  <span className="text-blue-500 text-2xl w-6 h-8">&gt;</span>
-</div>
-  </div>
-
-  <div className="bg-white shadow-md rounded-md overflow-hidden mb-6 w-full md:w-1/2 lg:w-2/3 xl:w-1/4 md:mx-45 lg:mx-40 xl:mx-15 rounded-bl-2xl rounded-br-2xl transition-transform transform hover:scale-105">
-   
-
- {/* Blue horizontal line at the top */}
- <div className="bg-blue-500 h-1 w-full"></div>
-
-{/* Content of the card */}
-<div className="flex items-start p-4">
-  {/* Square image with icon on the left */}
-  <div className="flex-shrink-0">
-    <img
-      src="./images/shape/atandt.png"
-      alt="Square Image"
-      className="w-12 h-12 object-cover rounded-full"
-    />
-  </div>
-
-  {/* Heading and paragraph on the right */}
-  <div className="ml-4">
-    <h2 className="text-xl font-regular text-black">Web </h2>
-    <h2 className="text-xl font-regular text-black">Development</h2>
+{/* card 2*/}
+<div className="flex items-start p-4 text-black hover:text-white">
+  <div className="card1">
+    <div className="content1">
+      <p className="heading">Web Design</p>
+      <p className="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+        laboriosam at voluptas minus culpa deserunt delectus sapiente
+        inventore pariatur
+      </p>
+      <a href="#" className="btn">Get Service</a>
+    </div>
   </div>
 </div>
 
-<p className="text-gray-500 p-4" style={{ marginTop: '-2rem' }}>
-  Make your own desired website with the help of our web developers who make your site visually appealing.
-</p>
-
-{/* Footer with "View More" link and next icon */}
-<div className="p-4 bg-blue-50 flex justify-between items-center rounded-bl-2xl rounded-br-2xl">
-  <a href="/next-page" className="text-blue-500 font-semibold">
-    View More
-  </a>
-  <span className="text-blue-500 text-2xl w-6 h-8">&gt;</span>
-</div>
-  </div>
-
-  <div className="bg-white shadow-md rounded-md overflow-hidden mb-6 w-full md:w-1/2 lg:w-2/3 xl:w-1/4 md:mx-45 lg:mx-40 xl:mx-15 rounded-bl-2xl rounded-br-2xl transition-transform transform hover:scale-105">
-   
-
- {/* Blue horizontal line at the top */}
- <div className="bg-blue-500 h-1 w-full"></div>
-
-{/* Content of the card */}
-<div className="flex items-start p-4">
-  {/* Square image with icon on the left */}
-  <div className="flex-shrink-0">
-    <img
-      src="./images/shape/atandt.png"
-      alt="Square Image"
-      className="w-12 h-12 object-cover rounded-full"
-    />
-  </div>
-
-  {/* Heading and paragraph on the right */}
-  <div className="ml-4">
-    <h2 className="text-xl font-regular text-black">App </h2>
-    <h2 className="text-xl font-regular text-black">Development</h2>
+{/* card 3*/}
+<div className="flex items-start p-4 text-black hover:text-white">
+  <div className="card1">
+    <div className="content1">
+      <p className="heading ">App Design</p>
+      <p className="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+        laboriosam at voluptas minus culpa deserunt delectus sapiente
+        inventore pariatur
+      </p>
+      <a href="#" className="btn">Get Service</a>
+    </div>
   </div>
 </div>
 
-<p className="text-gray-500 p-4" style={{ marginTop: '-2rem' }}>
-  Make your own desired website with the help of our web developers who make your site visually appealing.
-</p>
-
-{/* Footer with "View More" link and next icon */}
-<div className="p-4 bg-blue-50 flex justify-between items-center rounded-bl-2xl rounded-br-2xl">
-  <a href="/next-page" className="text-blue-500 font-semibold">
-    View More
-  </a>
-  <span className="text-blue-500 text-2xl w-6 h-8">&gt;</span>
-</div>
-  </div>
 </section>
+ 
 {/*  
 <div className="feature-1 py-6 md:py-12">
   <div className="container px-4 mx-auto">
