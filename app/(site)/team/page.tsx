@@ -22,7 +22,7 @@ const Team = () => {
        />
         <div className="hide">
        <h3>Venkata Vijaya Bhaskar.Vadada</h3>
-       <p>Lead of Software Services</p></div>
+       <p>Lead of Software Services(Full Stack)</p></div>
        <ul className="flex mb-4 hide-social md:order-1  md:mb-0 hide">
 <li className="ml-18">
 <Link href="/" className="flex justify-center items-center text-white bg-gray-800 hover:text-gray-100 hover:bg-black rounded-full hover:translate-y-[-1px] hover:scale-100" aria-label="Twitter">
@@ -53,7 +53,7 @@ const Team = () => {
      </div>
      <div className="caption">
        <h3>Venkata Vijaya Bhaskar.Vadada</h3>
-       <p>Lead of Software Services</p> 
+       <p>Lead of Software Services (Full Stack)</p> 
        {/* Social links for Card 1 */}
      <ul className="flex mb-4 md:order-1  md:mb-0">
 <li className="ml-4">
