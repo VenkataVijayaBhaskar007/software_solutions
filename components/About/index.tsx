@@ -281,9 +281,10 @@ const About = () => {
     <div className="content1">
       <p className="heading">UI UX Design</p>
       <p className="para">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-        laboriosam at voluptas minus culpa deserunt delectus sapiente
-        inventore pariatur
+      Transforming user interactions into memorable experiences, 
+      our UI/UX design expertise crafts visually appealing interfaces 
+      that prioritize user experience, employing user-centric design 
+      principles from wireframing to prototyping, ensuring interfaces that exceed expectations.
       </p>
       <a href="#" className="btn">Get Service</a>
     </div>
@@ -299,7 +300,7 @@ const About = () => {
       Crafting visually stunning and highly functional websites, 
       our expert team seamlessly blends creativity with cutting-edge 
       technology to deliver user-friendly interfaces, ensuring a compelling 
-      online presence tailored to your unique business needs.
+      online presence tailored to your business needs.
       </p>
       <a href="#" className="btn">Get Service</a>
     </div>
