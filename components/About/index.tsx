@@ -281,10 +281,11 @@ const About = () => {
     <div className="content1">
       <p className="heading">UI UX Design</p>
       <p className="para">
-      Transforming user interactions into memorable experiences, 
-      our UI/UX design expertise crafts visually appealing interfaces 
+      
+      Our UI/UX design expertise crafts visually appealing interfaces 
       that prioritize user experience, employing user-centric design 
-      principles from wireframing to prototyping, ensuring interfaces that exceed expectations.
+      principles from wireframing to prototyping, ensuring interfaces 
+      that exceed expectations.
       </p>
       <a href="#" className="btn">Get Service</a>
     </div>
