@@ -281,7 +281,7 @@ const About = () => {
     <div className="content1">
       <p className="heading">UI UX Design</p>
       <p className="para">
-      
+      Transforming UI into memorable experiences, 
       Our UI/UX design expertise crafts visually appealing interfaces 
       that prioritize user experience, employing user-centric design 
       principles from wireframing to prototyping, ensuring interfaces 
