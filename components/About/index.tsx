@@ -312,9 +312,10 @@ const About = () => {
     <div className="content1">
       <p className="heading ">App Design</p>
       <p className="para">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-        laboriosam at voluptas minus culpa deserunt delectus sapiente
-        inventore pariatur
+      Elevate your digital presence with our app design services, 
+      where skilled designers create intuitive and engaging mobile 
+      applications aligned seamlessly with your brand identity, 
+      prioritizing a seamless and delightful user experience.
       </p>
       <a href="#" className="btn">Get Service</a>
     </div>
