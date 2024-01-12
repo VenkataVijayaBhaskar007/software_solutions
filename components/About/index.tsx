@@ -296,9 +296,10 @@ const About = () => {
     <div className="content1">
       <p className="heading">Web Design</p>
       <p className="para">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-        laboriosam at voluptas minus culpa deserunt delectus sapiente
-        inventore pariatur
+      Crafting visually stunning and highly functional websites, 
+      our expert team seamlessly blends creativity with cutting-edge 
+      technology to deliver user-friendly interfaces, ensuring a compelling 
+      online presence tailored to your unique business needs.
       </p>
       <a href="#" className="btn">Get Service</a>
     </div>
